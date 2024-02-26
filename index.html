@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="welcomeMsg" >Welcome to the Javascript Resources Website!</h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ad consectetur qui, eligendi cupiditate facere ab quos, cum autem perferendis nemo facilis rerum? Inventore suscipit error voluptas, repellendus fugiat totam.
+    </p>
+    <h1 id="myH1">nvgknfvgk</h1>
+    <p id="myP">dlfnkewnrfkpw</p>
+
+
+    <p id="p1"></p>
+
+    <!--A-->
+    <label>Username</label>
+    <input id="myText">
+    <br>
+    <button id="mySubmit">submit</button>
+
+    <!--B-->
+    <label id="countLabel">0</label><br>
+    <div id="btnContainer">
+        <button id="minus" class="buttons"> - </button>
+        <button id ="reset" class="buttons">reset</button>
+        <button id="plus" class="buttons"> + </button>
+    </div>
+
+    <!--C check bbox-->
+    <input type="checkbox" id =myCheck>
+    <label for="myCheck">Subscribe</label><br>
+    <input type="radio" id="visa" name="card">
+    <label for="visa">VISA</label>
+    <input type="radio" id="mastercard" name="card">
+    <label for="mastercard">MASTERCARD</label>
+    <input type="radio" id="paypal" name="card">
+    <label for="paypal">PAYPAL</label>
+
+    <button type="submit" id="mySubmit">submit</button>
+    <p id="subResult"></p>
+    <p id="paymentResult"></p>
+
+
+    <!--startt and stop timer-->
+    <button onclick="timer()">START</button>
+    <button onclick="clearTimer()">CANCEL</button>
+
+
+    <!--ES6 Modulke-a way to have reusable code  using type=module in script and mathUtil, import is in index.js file-->
+
+
+    <!--sync code- sequential ordewr. Asyn code- doesnt happen in order, functions performed concurrently and doesnt block executioin flow such as setTimeout() and callbacks-->
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>

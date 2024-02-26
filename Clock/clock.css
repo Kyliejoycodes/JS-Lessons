@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    background-image: url(IMG_0373.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed; /*doesnt move image if there was a scroll bar*/
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 8px solid;
+    border-color: purple;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size:9rem;
+    font-weight: bold;
+    text-align: center;
+    color:white;
+    backdrop-filter: blur(3px);
+    width:100%;
+    background-color:hsla(0, 0%, 100%, 0.1);
+}

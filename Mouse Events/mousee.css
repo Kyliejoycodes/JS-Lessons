@@ -1,0 +1,32 @@
+#myBox{
+    background-color:pink;
+    width: 600px;
+    height: 600px;
+    font-size: 4.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#myButton{
+    font-size:3rem;
+    background-color: pink;
+    display:flex;
+}
+#box{
+    width: 200px;
+    height: 200px;
+    font-size: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+#buton2{
+    font-size:3rem;
+    background-color:pink;
+
+}

@@ -1,0 +1,1 @@
+Hi, I'm Kylie, I made this culmination of all the skills you'll mneed in JAvascript to get started devloping in the Front End community. If you have any questions or comments regarding the files contact kmorgan.dev@gmail.com !!
